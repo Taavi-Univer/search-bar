@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 600px;
+  background-color: lightblue;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.search {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: lightsalmon;
+  padding: 1em;
+}
+
+label {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+input {
+  display: block;
+  width: 40%;
+  font-size: 1.5rem;
+  margin-left: 1em;
+  padding: 5px 15px;
+}
+
+ul {
+  display: block;
+  padding: 10px;
+}
+
+li {
+  width: 100%;
+  background-color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
